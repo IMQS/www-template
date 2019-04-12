@@ -1,0 +1,7 @@
+{
+	"loglevel": "debug",
+	"publicdir": "./www/dist",
+	"server": {
+		"port": ":2041"
+	}
+}

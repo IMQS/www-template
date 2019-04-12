@@ -1,0 +1,12 @@
+github.com/IMQS/gowinsvc v0.0.0-20171019081213-88eed8ddfe95 h1:UFPSgk5/RyJWpCTKpuku3lrBCEI8s3ty40Y6TRocgaA=
+github.com/IMQS/gowinsvc v0.0.0-20171019081213-88eed8ddfe95/go.mod h1:b69ORxZbSjMy1Jsk8LCZ9JWNo2iIl5VXQVmp3jdKIMY=
+github.com/IMQS/log v0.0.0-20190218135500-9a55e07cb744 h1:JH7DVtaHZRa2SMt0c3bTZoAcU+rS6YArXlfGvxmemaU=
+github.com/IMQS/log v0.0.0-20190218135500-9a55e07cb744/go.mod h1:Aq/GLUOZ8xRYkwS6yZEg5QwKi3etKMgdkI+UQQQS87U=
+github.com/IMQS/serviceconfigsgo v0.0.0-20181011085921-596c4358dcd4 h1:0S0NJlDz5BRgmqXAPw9dJxF+/BTrGqIs/9O8mWR2DHw=
+github.com/IMQS/serviceconfigsgo v0.0.0-20181011085921-596c4358dcd4/go.mod h1:Sal40iFTM7BqULDKrOwKuAV4swyPeCk1jWxx5zMsJsI=
+github.com/gorilla/mux v1.7.0 h1:tOSd0UKHQd6urX6ApfOn4XdBMY6Sh1MfxV3kmaazO+U=
+github.com/gorilla/mux v1.7.0/go.mod h1:1lud6UwP+6orDFRuTfBEV8e9/aOM/c4fVVCaMa2zaAs=
+github.com/justinas/alice v0.0.0-20171023064455-03f45bd4b7da h1:5y58+OCjoHCYB8182mpf/dEsq0vwTKPOo4zGfH0xW9A=
+github.com/justinas/alice v0.0.0-20171023064455-03f45bd4b7da/go.mod h1:oLH0CmIaxCGXD67VKGR5AacGXZSMznlmeqM8RzPrcY8=
+github.com/natefinch/lumberjack v0.0.0-20170911000000-aee462912944 h1:5mm6nUfBxgHGLAa08qAIWieosY5Oz9snyXK8Zia4+A4=
+github.com/natefinch/lumberjack v0.0.0-20170911000000-aee462912944/go.mod h1:Wi9p2TTF5DG5oU+6YfsmYQpsTIOm0B1VNzQg9Mw6nPk=

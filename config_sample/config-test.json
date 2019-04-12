@@ -1,0 +1,6 @@
+{
+    "server": {
+        "port": ":2041"
+    },
+    "bypassauth": true
+}

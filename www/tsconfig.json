@@ -1,0 +1,50 @@
+{
+	"compilerOptions": {
+		"outDir": "./dist/",
+		"sourceMap": true,
+		"strict": true,
+		"noImplicitThis": true,
+		"noImplicitAny": true,
+		"noImplicitReturns": true,
+		"module": "es2015",
+		"moduleResolution": "node",
+		"target": "es5",
+		"experimentalDecorators": true,
+		"emitDecoratorMetadata": true,
+		"downlevelIteration": true,
+		"allowSyntheticDefaultImports": true,
+		"importHelpers": true,
+		"typeRoots": [
+			"./node_modules/@types",
+			"./src/lib/node_modules/@types",
+			"./src/lib/types"
+		],
+		"lib": [
+			"dom",
+			"es2016"
+		],
+		"baseUrl": ".",
+		"paths": {
+			"@/*": [
+				"src/*"
+			],
+			"~/*": [
+				"src/*"
+			],
+			"lib/*": [
+				"src/lib/*"
+			]
+		}
+	},
+	"exclude": [
+		"node_modules",
+		"src/lib/node_modules",
+		"src/lib/**/*.spec.ts",
+		"src/lib/main.ts",
+		"src/lib/pages/**"
+	],
+	"include": [
+		"./src/**/*.ts",
+		"./src/**/*.vue"
+	]
+}
