@@ -16,7 +16,6 @@
 		"importHelpers": true,
 		"typeRoots": [
 			"./node_modules/@types",
-			"./src/lib/node_modules/@types",
 			"./src/lib/types"
 		],
 		"lib": [
