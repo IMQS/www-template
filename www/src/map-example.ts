@@ -6,7 +6,7 @@ import { MapGlobals, Globals, Control } from 'lib/map';
 import { auth } from 'lib/auth';
 import { IMapConfig } from 'lib/map/map-config';
 import { idata } from 'lib/idata';
-import { TripIdent } from 'lib/map/map-triplet';
+import { mapstyle } from 'lib/map/style';
 import { MapURLKey } from 'lib/map/map-uri';
 import { getHashQueryParam } from 'lib/base/uri';
 import { showNotification } from 'lib/components/Dialog';
@@ -78,7 +78,7 @@ export class MapExample extends Vue {
 
 		let map = Control.new("template-map", LEAFLET_OPTIONS);
 
-		let themeIdent: TripIdent = new TripIdent(themeURL);
+		let themeIdent: mapstyle.TripIdent = new mapstyle.TripIdent(themeURL);
 		themeIdent.rewriteAuthorityToUser();
 		map.layers.setCurrentThemeLayerFromTheme(themeIdent.toString());
 	}
