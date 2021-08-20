@@ -3,7 +3,6 @@ A skeleton project to demonstrate a minimal setup of an IMQS frontend app levera
 
 ## To use this as a template 
 1. Copy all code from this repo to your new repository
-1. Add `www-lib` submodule: `git add submodule git@github.com:IMQS/www-lib.git www/src/lib`
 1. Find and replace all occurances of `wwwtemplate` in this repository with your project name.
 
 ## To run from commandline
@@ -12,6 +11,9 @@ A skeleton project to demonstrate a minimal setup of an IMQS frontend app levera
 1. Build project by running: `node imqs-build.js prepare`
 1. Run: `wwwtemplate.exe -c config_sample/config.json`
 1. Open [`http://localhost/wwwtemplate/www/`](http://localhost/wwwtemplate/www/) (trailing slash is required) and you should see the app running.
+
+## IMQS packages 
+1. Add imqs packages that are required from [@imqs](http://js.imqs.co.za:4873/), by using npm install. For more information on imqs packages consult [this page](https://imqssoftware.atlassian.net/wiki/spaces/AR/pages/1291813060/Typescript).
 
 ## Front-end Development
 1. Change directory to `/www`
